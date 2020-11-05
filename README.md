@@ -1,6 +1,6 @@
 <p align="center">
     <br>
-    <img src="https://github.com/44himanshu44/Covid19-Dashboard-with-forecasting/blob/master/docs/covid19.jpeg" width="400"/>
+    <img src="https://github.com/44himanshu44/Package-recommendation-chatbot/blob/master/docs/chatbot_logo.png" width="400"/>
     <br>
 </p>
 
@@ -9,15 +9,13 @@
 </h2>
 
 
-
-### Covid19 Dashboard for India
-![page_2](https://github.com/44himanshu44/Covid19-Dashboard-with-forecasting/blob/master/docs/page_2.gif) <br>
-
-### Change in covid cases around the world
-![page_3](https://github.com/44himanshu44/Covid19-Dashboard-with-forecasting/blob/master/docs/page_3.gif)
+![chatbot](https://github.com/44himanshu44/Package-recommendation-chatbot/blob/master/docs/chatbot.gif) <br>
 
 
-Implementation of a dashboard along with forecasting using facebook's fbprophet
+## How it works
+This chatbot recommends you the best package based on your inputs. It remembers your choices and analyses to give you 
+the best results. This chatbot is completely rule based however it started with intent classification + entity detection but for optimization
+purpose and tailoring to the need of small dataset it was changed to rule based. An alternative approach can also be tried in future based on NLU like generative chatbots
 
 
 
@@ -31,28 +29,16 @@ Implementation of a dashboard along with forecasting using facebook's fbprophet
 Make sure you have:
 
 * Python >= 3.6
-* fbprophet
-* dash
-* dash-bootstrap-components
-* Mapbox Access token
+* flask
 
-Make sure you install fbprophet through conda instead of pip
-``` 
-conda install -c conda-forge fbprophet.
-
-```
-If you are facing any issues in installing fbprophet you can refer to this [link](https://facebook.github.io/prophet/docs/installation.html)
-<br><br>
-Mapbox is a tool to create advance Maps <br>
-Click the following link to know more or create your [Mapbox access token](https://docs.mapbox.com/help/how-mapbox-works/access-tokens/)
 
 ## 📖Dataset
-You can use data of any time frame. Since this project was developed during early qurantine the data is not updated
+This chatbot was developed for holiday package industry. You can simply replace with the data of your choice and customise the chatbot to your need.
 <br>
 
 ## Clone this repository and run on command line:
 ```python
-E:\Jupyter\Projects\Project_covid19\test\final> python index.py
+E:\Jupyter\Projects\chatbot> python run.py
 ```
 
 
