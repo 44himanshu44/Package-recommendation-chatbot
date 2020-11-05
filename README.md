@@ -1,11 +1,11 @@
 <p align="center">
     <br>
-    <img src="https://github.com/44himanshu44/Package-recommendation-chatbot/blob/master/docs/chatbot_logo.png" width="400"/>
+    <img src="https://github.com/44himanshu44/Package-recommendation-chatbot/blob/master/docs/chatbot_logo.png" width="500"/>
     <br>
 </p>
 
 <h2 align="center">
-<p>Covid19 Dashboard with Forecasting</p>
+<p>Package Recommendation Chatbot</p>
 </h2>
 
 
