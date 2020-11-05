@@ -13,7 +13,7 @@ import nltk
 file_path = "words.txt"
 dictionary = enchant.request_pwl_dict(file_path)
 
-data = pd.read_excel("data/sampledata_v2.xlsx", encoding="latin1")
+data = pd.read_excel("data/sampledata_v2.xlsx")
 for i in data.columns:
     data[i] = data[i].str.lower()
 
